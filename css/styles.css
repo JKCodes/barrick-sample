@@ -10,6 +10,12 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Helvetica';
+  src:url('fonts/helvetica.ttf');
+  font-weight: normal;
+}
+
 /* Globals */
 
 * {
@@ -222,7 +228,7 @@ header .button {
 
 #hero-image {
   width: 1440px;
-  height: 660px;
+  height: 665px;
 }
 
 #hero-content {
@@ -358,19 +364,123 @@ header .button {
   width: 620px;
 }
 
-.learn-more {
-  position: absolute;
-  top: 205px;
-  left: 83px;
+.more {
   width: 134px;
   height: 43px;
-  border: solid 2px #ffffff;
   font-size: 14px;
   font-family: 'Open Sans Bold';
-  color: #fff;
   background-color: transparent;
 }
 
-.col_large .learn-more {
+.white {
+  border: solid 2px #ffffff;
+  color: #fff;
+}
+
+.picture-section {
+  position: absolute;
+  top: 205px;
+  left: 83px;
+}
+
+.col_large .more {
   left: 246px;
+}
+
+/* chiarman */
+
+#chairman {
+  overflow: hidden;
+  position: relative;
+  height: 490px;
+}
+
+#director {
+  overflow: hidden;
+  position: relative;
+  height: 470px;
+}
+
+#chairman-info {
+  position: relative;
+  top: 70px;
+  left: 250px;
+}
+
+#director-info {
+  position: relative;
+  top: 70px;
+  left: 728px;
+}
+
+#chairman-info h2,
+#director-info h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 98px;
+  font-size: 36px;
+  font-family: 'Open Sans Bold';
+  color: #043a56;
+}
+
+#chairman-info .quote,
+#director-info .quote {
+  position: absolute;
+  top: 165px;
+  left: 13px;
+}
+
+#chairman-info h3,
+#director-info h3 {
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  width: 360px;
+  height: 60px;
+  font-size: 14px;
+  color: #043a56;
+}
+
+#chairman-picture {
+  position: absolute;
+  bottom: 0;
+  left: 784px;
+  width: 240px;
+  height: 436px;
+}
+
+#director-picture {
+  position: absolute;
+  bottom: 0px;
+  left: 432px;
+  width: 260px;
+  height: 412px;
+}
+
+#chairman-barrick-icon {
+  position: absolute;
+  top: 86px;
+  left: 1050px;
+  height: 328.6px;
+}
+
+#director-barrick-icon {
+  position: absolute;
+  left: 0px;
+  bottom: 25px;
+  height: 400px;
+}
+
+.chairman-section,
+.director-section {
+  position: absolute;
+  top: 280px;
+  left: 80px;
+}
+
+.yellow {
+  border: solid 2px #ba880b;
+  color: #ba880b;
 }
