@@ -630,3 +630,54 @@ header .button {
   left: 870px;
 }
 
+/* annual meeting */
+#annual-meeting {
+  margin: 0;
+  position: relative;
+}
+
+#annual-meeting-image {
+  height: 528px;
+}
+
+#annual-meeting h1 {
+  margin: 0;
+  position: absolute;
+  font-family: 'Open Sans Bold';
+  top: 85px;
+  left: 411px;
+  height: 49px;
+  font-size: 36px;
+  color: #043a56;
+}
+
+.annual-section {
+  position: absolute;
+  top: 204px;
+  left: 411px;
+}
+
+.annual-second {
+  left: 752px;
+}
+
+.annual-section h2 {
+  margin: 20px 0 0 0;
+  font-family: 'Open Sans Bold';
+  font-size: 24px;
+  color: #043a56;
+}
+
+.annual-section h3 {
+  margin: 16px 0 0 0;
+  font-size: 24px;
+  color: #043a56;
+}
+
+.annual-section h4 {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Open Sans Bold';
+  color: #ba880b;
+}
+
