@@ -76,7 +76,8 @@ a, a:hover {
   border-style: solid;
   border-width: 15px 0px 15px 20px;
   border-color: transparent transparent transparent #003857;
-  background-color: #ddd;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .play-button-smaller {
@@ -89,7 +90,8 @@ a, a:hover {
   border-style: solid;
   border-width: 12px 0px 12px 16px;
   border-color: transparent transparent transparent #003857;
-  background-color: #ddd;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 /* header */
@@ -261,10 +263,14 @@ header .button {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   padding: 18px 25px 12px 25px;
   border-radius: 36.5px;
+  cursor: pointer;
 }
 
+#hero-button-container:hover {
+  background-color: #888;
+}
 
-#hero-button-container span {
+#hero-content span {
   position: absolute;
   top: 262px;
   left: 93px;
@@ -286,7 +292,7 @@ header .button {
   position: relative;
   width: 300px;
   margin: 0 20px 20px 0;
-  float: left
+  float: left;
 }
 
 .small-photo {
@@ -337,10 +343,15 @@ header .button {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   padding: 10px 10px 10px 20px;
   border-radius: 36.5px;
+  cursor: pointer;
 }
 
 .col_large #picture-button-container {
   left: 285px;
+}
+
+#picture-button-container:hover {
+  background-color: #888;
 }
 
 #picture-content h2 {
@@ -364,6 +375,12 @@ header .button {
   font-size: 14px;
   font-family: 'Open Sans Bold';
   background-color: transparent;
+  cursor: pointer;
+}
+
+.more:hover {
+  border: solid 2px #555;
+  color: #555;
 }
 
 .white {
