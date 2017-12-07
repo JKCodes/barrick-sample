@@ -66,6 +66,19 @@ a, a:hover {
   border-color: #202020 transparent transparent transparent;
 }
 
+.play-button {
+  position: relative;
+  top: 2px;
+  padding: 0;
+  margin-left: 3px;
+  width: 20px;
+  height: 30px;
+  border-style: solid;
+  border-width: 15px 0px 15px 20px;
+  border-color: transparent transparent transparent #003857;
+  background-color: #ddd;
+}
+
 /* header */
 
 #logo {
@@ -95,7 +108,7 @@ a, a:hover {
   display: block;
   padding: 0 12px;
   font-size: 14px;
-  color: rgb(200,200,200);
+  color: rgb(150,150,150);
   line-height: 94px;
 }
 
@@ -188,3 +201,61 @@ header .button {
   background-color: #fff;
 }
 
+/* hero-image section */
+
+#hero-section {
+  position: relative;
+}
+
+#hero-image {
+  width: 1440px;
+  height: 660px;
+}
+
+#hero-content {
+  position: absolute;
+  top: 125px;
+  left: 250px;
+}
+
+#hero-content h3 {
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+#hero-content .divider {
+  width: 99px;
+  height: 1px;
+  border-bottom: solid 2px #fff;
+}
+
+#hero-content h1 {
+  font-family: 'Open Sans Bold';
+  margin-top: 15px;
+  margin-bottom: 25px;
+  width: 556px;
+  height: 124px;
+  font-size: 46px;
+  color: #fff;
+}
+
+#hero-button-container {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 73px;
+  height: 73px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 18px 25px 12px 25px;
+  border-radius: 36.5px;
+}
+
+
+#hero-button-container span {
+  position: absolute;
+  top: 262px;
+  left: 93px;
+  height: 30px;
+  font-size: 21px;
+  color: #fff;
+}
