@@ -10,12 +10,6 @@
   font-weight: normal;
 }
 
-@font-face {
-  font-family: 'Helvetica';
-  src:url('fonts/helvetica.ttf');
-  font-weight: normal;
-}
-
 /* Globals */
 
 * {
@@ -483,4 +477,57 @@ header .button {
 .yellow {
   border: solid 2px #ba880b;
   color: #ba880b;
+}
+
+/* additional info */
+
+#additional-info {
+  width: 1260px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#additional-info h2 {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 34px;
+  height: 46px;
+  color: #043a56;
+}
+
+.col_third {
+  display: block;
+  position: relative;
+  width: 380px;
+  margin: 50px 0 100px 0;
+  float: left;
+}
+
+.col_third + .col_third {
+  margin-left: 60px;
+}
+
+.col_third .barrick-background {
+  width: 380px;
+  height: 195px;
+}
+
+.col_third h3 {
+  position: absolute;
+  top: 84px;
+  left: 27px;
+  height: 24px;
+  font-size: 21px;
+  color: #fff;
+  margin: 0;
+}
+
+.col_third .arrow {
+  position: absolute;
+  top: 78px;
+  right: 20px;
+  width: 97px;
+  cursor: pointer;
+
 }
