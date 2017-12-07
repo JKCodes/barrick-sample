@@ -529,5 +529,87 @@ header .button {
   right: 20px;
   width: 97px;
   cursor: pointer;
-
 }
+
+/* meeting voting */
+
+#meeting-voting {
+  position: relative;
+  clear: both;
+  margin-bottom: 54px;
+}
+
+#meeting-image {
+  width: 1440px;
+  height: 763px;
+}
+
+#meeting-voting h1 {
+  position: absolute;
+  top: 70px;
+  left: 90px;
+  height: 46px;
+  font-size: 34px;
+  color: #fff;
+  margin: 0;
+}
+
+#electing, #appointing, #pay-advisory {
+  margin: 0;
+  position: absolute;
+  top: 185px;
+}
+
+#electing {
+  left: 90px;
+}
+
+#appointing {
+  left: 530px;
+}
+
+#pay-advisory {
+  left: 970px;
+}
+
+#meeting-voting .col_third h3 {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  height: 92px;
+  font-size: 34px;
+  color: #fff;
+  font-family: 'Open Sans Bold';
+}
+
+#meeting-voting .col_third p {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  height: 147px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.meeting-section {
+  position: absolute;
+  left: 0;
+  top: 353px;
+}
+
+#meeting-voting h2 {
+  margin: 0;
+  position: absolute;
+  bottom: 72px;
+  left: 408px;
+  height: 49px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.meeting-button {
+  position: absolute;
+  bottom: 78px;
+  left: 870px;
+}
+
