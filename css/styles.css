@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Open Sans';
-  src:url('fonts/open-sans.regular.ttf');
+  src:url('fonts/open-sans.light.ttf');
   font-weight: normal;
 }
 
@@ -79,6 +79,19 @@ a, a:hover {
   background-color: #ddd;
 }
 
+.play-button-smaller {
+  position: relative;
+  top: 2px;
+  padding: 0;
+  margin-left: 3px;
+  width: 16px;
+  height: 24px;
+  border-style: solid;
+  border-width: 12px 0px 12px 16px;
+  border-color: transparent transparent transparent #003857;
+  background-color: #ddd;
+}
+
 /* header */
 
 #logo {
@@ -108,7 +121,7 @@ a, a:hover {
   display: block;
   padding: 0 12px;
   font-size: 14px;
-  color: rgb(150,150,150);
+  color: rgb(100,100,100);
   line-height: 94px;
 }
 
@@ -258,4 +271,106 @@ header .button {
   height: 30px;
   font-size: 21px;
   color: #fff;
+}
+
+/* next four pictures container */
+
+#picture-content {
+  width: 1260px;
+  margin: 20px auto;
+  clear: both;
+}
+
+.col_small {
+  display: block;
+  position: relative;
+  width: 300px;
+  margin: 0 20px 20px 0;
+  float: left
+}
+
+.small-photo {
+  width: 300px;
+  height: 300px;
+}
+
+.col_large {
+  display: block;
+  position: relative;
+  width: 620px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.col_last {
+  display: block;
+  position: relative;
+  width: 300px;
+  margin: 0 20px 20px 0;
+  float: left;
+  margin-right: 0;
+}
+
+.large-photo {
+  width: 620px;
+  height: 300px;
+}
+
+.col_full {
+  width: 1260px;
+  display: block;
+}
+
+.full-photo {
+  width: 1260px;
+  height: 566px;
+}
+
+#picture-button-container {
+  position: absolute;
+  top: 70px;
+  left: 125px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 57px;
+  height: 57px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 20px;
+  border-radius: 36.5px;
+}
+
+.col_large #picture-button-container {
+  left: 285px;
+}
+
+#picture-content h2 {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  width: 300px;
+  text-align: center;
+  height: 38px;
+  font-size: 28px;
+  color: #fff;
+}
+
+#picture-content .col_large h2 {
+  width: 620px;
+}
+
+.learn-more {
+  position: absolute;
+  top: 205px;
+  left: 83px;
+  width: 134px;
+  height: 43px;
+  border: solid 2px #ffffff;
+  font-size: 14px;
+  font-family: 'Open Sans Bold';
+  color: #fff;
+  background-color: transparent;
+}
+
+.col_large .learn-more {
+  left: 246px;
 }
