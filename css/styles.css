@@ -681,3 +681,50 @@ header .button {
   color: #ba880b;
 }
 
+/* divider */
+
+#divider {
+  margin: -5px;
+  height: 9px;
+  background-color: #043a56;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  height: 108px;
+}
+
+#footer-logo {
+  position: absolute;
+  width: 85px;
+  height: 42px;
+  left: 90px;
+  bottom: 37px;
+}
+
+#search-proxy {
+  position: absolute;
+  right: 90px;
+  bottom: 25px;
+  width: 299px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #9b9b9b;
+  padding: 0px 25px;
+}
+
+#search-proxy::placeholder {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #acacaf;
+}
+
+#search-icon {
+  position: absolute;
+  right: 117px;
+  bottom: 37px;
+  cursor: pointer;
+}
