@@ -1,0 +1,347 @@
+/* responsive */
+
+@media (max-width: 1199px) {
+  #proxy {
+    right: 31.5%;
+    margin-right: 30px;
+  }
+
+  #annual {
+    right: 26%;
+  }
+
+  .col_small, .col_large, .col_last {
+    float: none;
+    margin: 20px auto;
+  }
+
+  #chairman-barrick-icon {
+    display: none;
+  }
+
+  #director-barrick-icon {
+    display: none;
+  }
+
+  #chairman-info {
+    position: relative;
+    top: 70px;
+    left: 8%;
+  }
+
+  #director-info {
+    position: relative;
+    top: 70px;
+    left: 55%;
+  }
+
+  #chairman-picture {
+    margin-top: 30px;
+    margin-left: 55%;
+    width: 240px;
+    height: 436px;
+  }
+
+  #director-picture {
+    margin-top: 30px;
+    margin-left: 8%;
+    width: 260px;
+    height: 412px;
+  }
+
+  .col_third {
+    float: none;
+    margin: 20px auto;
+  }
+
+  #additional-info div:last-child {
+    margin: 20px auto;
+  }
+
+  #meeting-voting .col_third h3 {
+    top: 53px;
+    font-size: 23px;
+  }
+
+  #meeting-voting .col_third p {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    height: 147px;
+    font-size: 14px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 991px) {
+  #menu-trigger {
+    display: block;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+  #proxy {
+    right: 32%;
+    margin-right: 50px;
+  }
+
+  #annual {
+    right: 28%;
+  }
+
+  #chairman-info h2,
+  #director-info h2 {
+    font-size: 23px;
+  }
+
+  #chairman-info .quote,
+  #director-info .quote {
+    width: 30px;
+    height: 25px;
+    top: 110px;
+    left: 10px;
+  }
+
+  #chairman-info h3,
+  #director-info h3 {
+    width: 300px;
+    top: 110px;
+    left: 45px;
+    font-size: 14px;
+  }
+
+  #electing, #appointing, #pay-advisory {
+    margin-top: 0;
+  }
+
+  #meeting-voting h1 {
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  #meeting-voting .col_third h3 {
+    top: 75px;
+    font-size: 20px;
+  }
+
+  #meeting-voting .col_third p {
+    top: 135px;
+    left: 0;
+    font-size: 13px;
+  }
+
+  #meeting-voting h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 49px;
+    font-size: 24px;
+    color: #fff;  
+  }
+
+  .meeting-button {
+    position: absolute;
+    top: 0;
+    left: 300px;
+  }
+
+  .meeting-section {
+    position: absolute;
+    left: 0;
+    top: 390px;
+  }
+
+  #meeting-voting {
+    height: 700px;
+  }
+
+  .annual-section {
+    margin-left: 19.5%;
+    float: left;
+    width: 30%;
+  }
+
+  .annual-second {
+    margin-left: 2%;
+    float: left;
+  }
+
+  .annual-section h2 {
+    margin: 20px 0 0 0;
+    font-family: 'Open Sans Bold';
+    font-size: 16px;
+    color: #043a56;
+  }
+
+  .annual-section h3 {
+    margin: 16px 0 0 0;
+    font-size: 16px;
+    color: #043a56;
+  }
+
+  .annual-section h4 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Open Sans Bold';
+    color: #ba880b;
+  }
+}
+
+@media (max-width: 767px) {
+  #proxy {
+    left: 26.5%;
+    margin-right: 30px;
+  }
+
+  #annual {
+    left: 45%;
+  }
+
+  #hero-content h3 {
+    font-size: 16px;
+  }
+
+  #hero-content .divider {
+    margin-top: 12px;
+    width: 82px;
+  }
+
+  #hero-content h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 31px;
+    color: #fff;
+  }
+
+  #chairman-info h2,
+  #director-info h2 {
+    font-size: 17px;
+  }
+
+  #chairman-info .quote,
+  #director-info .quote {
+    width: 30px;
+    height: 25px;
+    top: 80px;
+    left: 0px;
+  }
+
+  #chairman-info h3,
+  #director-info h3 {
+    width: 180px;
+    top: 80px;
+    left: 35px;
+    font-size: 14px;
+  }
+
+  #chairman-info {
+    position: relative;
+    top: 70px;
+    left: 3%;
+  }
+
+  #director-info {
+    position: relative;
+    top: 70px;
+    left: 50%;
+  }
+
+  #chairman-picture {
+    margin-top: 30px;
+    margin-left: 50%;
+    width: 200px;
+    height: 363px;
+  }
+
+  #director-picture {
+    margin-top: 30px;
+    margin-left: 3%;
+    width: 200px;
+    height: 317px;
+  }
+
+  .chairman-section,
+  .director-section {
+    position: absolute;
+    top: 220px;
+    left: 70px;
+  }
+
+  #additional-info h2 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 23px;
+  }
+
+  #additional-info {
+    max-width: 1260px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .col_third {
+    float: none;
+  }
+
+  #meeting-voting h1 {
+    font-size: 23px;
+  }
+
+
+  #meeting-voting .col_third h3 {
+    top: 75px;
+    font-size: 17px;
+  }
+
+  #meeting-voting .col_third p {
+    top: 125px;
+    left: 0;
+    font-size: 12px;
+  }
+
+  #meeting-voting h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 49px;
+    font-size: 18px;
+    color: #fff;  
+  }
+
+  .vote-container {
+    position: relative;
+    margin-top: 570px;
+    margin-left: 9.5%;
+  }
+
+  .meeting-button {
+    position: absolute;
+    top: 0;
+    left: 220px;
+  }
+
+  .meeting-section {
+    position: absolute;
+    left: 0;
+    top: 470px;
+  }
+
+  #meeting-voting {
+    height: 700px;
+  }
+}
+
+
+@media (max-width: 479px) {
+  #proxy {
+    display: none;
+  }
+
+  #annual {
+    display: none;
+  }
+}

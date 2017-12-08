@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
 
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
 
     <title>Sample Page</title>
   </head>
@@ -16,6 +17,7 @@
           </a>
         </div>
         
+        <div id="menu-trigger"><img src="images/menu.png"></div>
         <div id="main-nav">
           <ul>
             <li class="dropdown">
@@ -72,7 +74,6 @@
     </header>
     <section>
       <div id="hero-section">
-        <img id="hero-image" src="images/2xhero-image.jpg" alt="Hero-image" />
         <div id="hero-content">
           <h3>Welcome</h3>
           <div class="divider"></div>
@@ -168,7 +169,7 @@
       </div>
 
       <div id="meeting-voting">
-        <img id="meeting-image" src="images/voting-terms.jpg" />
+        <!-- <img id="meeting-image" src="images/voting-terms.jpg" /> -->
         <h1>2018 Meeting Voting Items</h1>
         <div class="col_third" id="electing">
           <img class="checkbox" src="images/checkbox.png" />
@@ -189,12 +190,14 @@
           <button class="white meeting-section more">READ MORE</button>
         </div>
 
-        <h2>Ready to cast your vote?</h2>
-        <button class="meeting-button vote">Vote Now</button>
+        <div class="vote-container">
+          <h2>Ready to cast your vote?</h2>
+          <button class="meeting-button vote">Vote Now</button>
+        </div>
       </div>
 
       <div id="annual-meeting">
-        <img id="annual-meeting-image" src="images/footer-crowd.png" />
+        <!-- <img id="annual-meeting-image" src="images/footer-crowd.png" /> -->
         <h1>Annual Meeting Details</h1>
         <div class="annual-section annual-first">
           <h4>WHEN</h4>

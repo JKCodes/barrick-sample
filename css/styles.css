@@ -26,8 +26,9 @@
 
 body {
   font-family: "Open Sans";
-  width: 1440px;
-  margin: 0;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 header {
@@ -52,6 +53,13 @@ a, a:hover {
 .nomargin {
   margin: 0 !important;
 }
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+/* col settings */
+
 
 /* play & arrow button */
 .arrow-button {
@@ -100,15 +108,22 @@ a, a:hover {
 #logo {
   position: absolute;
   top: 24px;
-  left: 89px;
+  left: 6%;
   width: 85px;
   height: 42px;
+}
+
+#menu-trigger {
+  display: none;
+  position: absolute;
+  top: 36px;
+  left: 1%;
 }
 
 #main-nav {
   position: absolute;
   top: 0;
-  left: 230px;
+  left: 16%;
 }
 
 #main-nav ul {
@@ -175,14 +190,14 @@ a, a:hover {
 #proxy {
   position: absolute;
   top: 41px;
-  left: 949px;
+  right: 26%;
   margin-right: 30px;
 }
 
 #annual {
   position: absolute;
   top: 41px;
-  left: 1052px;
+  right: 21.5%;
 }
 
 #proxy:hover, #annual:hover {
@@ -198,7 +213,7 @@ a, a:hover {
 
 header .button {
   position: absolute;
-  left: 1190px;
+  right: 5%;
   top: 26px;
 }
 
@@ -220,18 +235,18 @@ header .button {
 /* hero-image section */
 
 #hero-section {
-  position: relative;
-}
-
-#hero-image {
-  width: 1440px;
+  background: url(../images/2xhero-image.jpg) no-repeat left top;
+  background-size: cover;
+  background-position: center;
   height: 665px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 #hero-content {
-  position: absolute;
-  top: 125px;
-  left: 250px;
+  margin-top: 145px;
+  margin-left: 17.4%;
 }
 
 #hero-content h3 {
@@ -241,6 +256,7 @@ header .button {
 }
 
 #hero-content .divider {
+  margin-top: 20px;
   width: 99px;
   height: 1px;
   border-bottom: solid 2px #fff;
@@ -257,6 +273,7 @@ header .button {
 }
 
 #hero-button-container {
+  float: left;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.8);
   width: 73px;
@@ -272,9 +289,9 @@ header .button {
 }
 
 #hero-content span {
-  position: absolute;
-  top: 262px;
-  left: 93px;
+  float: left;
+  margin-top: 26px;
+  margin-left: 20px;
   height: 30px;
   font-size: 21px;
   color: #fff;
@@ -283,8 +300,8 @@ header .button {
 /* next four pictures container */
 
 #picture-content {
-  width: 1260px;
-  margin: 20px auto;
+  max-width: 1260px;
+  margin: 20px 90px;
   clear: both;
 }
 
@@ -301,10 +318,20 @@ header .button {
   height: 300px;
 }
 
+.col_large img {
+  display: none;
+}
+
 .col_large {
+  background: url('../images/2xour-company.jpg') no-repeat left top;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
   display: block;
   position: relative;
-  width: 620px;
+  width: calc(100vw - 835px);
+  min-width: 300px;
+  object-fit: cover;
   margin: 0 20px 20px 0;
   float: left;
 }
@@ -313,30 +340,34 @@ header .button {
   display: block;
   position: relative;
   width: 300px;
-  margin: 0 20px 20px 0;
+  margin: 0 0 20px 0;
   float: left;
   margin-right: 0;
 }
 
 .large-photo {
-  width: 620px;
+  width: 100%;
   height: 300px;
 }
 
 .col_full {
-  width: 1260px;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
 .full-photo {
-  width: 1260px;
-  height: 566px;
+  max-width: 1260px;
+  width: 100%;
+  height: auto;
+  max-height: 566px;
 }
 
 #picture-button-container {
   position: absolute;
-  top: 70px;
-  left: 125px;
+  top: 23.3%;
+  left: 50%;
+  margin-left: -28.5px;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.8);
   width: 57px;
@@ -347,9 +378,6 @@ header .button {
   cursor: pointer;
 }
 
-.col_large #picture-button-container {
-  left: 285px;
-}
 
 #picture-button-container:hover {
   background-color: #888;
@@ -357,7 +385,7 @@ header .button {
 
 #picture-content h2 {
   position: absolute;
-  top: 110px;
+  top: 130px;
   left: 0px;
   width: 300px;
   text-align: center;
@@ -367,7 +395,8 @@ header .button {
 }
 
 #picture-content .col_large h2 {
-  width: 620px;
+  width: calc(100vw - 835px);
+  min-width: 300px;
 }
 
 .more {
@@ -392,19 +421,18 @@ header .button {
 .picture-section {
   position: absolute;
   top: 205px;
-  left: 83px;
+  left: 50%;
+  margin-left: -67px;
 }
 
-.col_large .more {
-  left: 246px;
-}
-
-/* chiarman */
+/* chairman */
 
 #chairman {
   overflow: hidden;
   position: relative;
   height: 490px;
+  clear: both;
+  width: 100%;
 }
 
 #director {
@@ -416,13 +444,13 @@ header .button {
 #chairman-info {
   position: relative;
   top: 70px;
-  left: 250px;
+  left: 17.4%;
 }
 
 #director-info {
   position: relative;
   top: 70px;
-  left: 728px;
+  left: 50.6%;
 }
 
 #chairman-info h2,
@@ -430,7 +458,7 @@ header .button {
   position: absolute;
   top: 0;
   left: 0;
-  width: 400px;
+  width: 27.8%;
   height: 98px;
   font-size: 36px;
   font-family: 'Open Sans Bold';
@@ -456,17 +484,15 @@ header .button {
 }
 
 #chairman-picture {
-  position: absolute;
-  bottom: 0;
-  left: 784px;
+  margin-top: 30px;
+  margin-left: 54.4%;
   width: 240px;
   height: 436px;
 }
 
 #director-picture {
-  position: absolute;
-  bottom: 0px;
-  left: 432px;
+  margin-top: 30px;
+  margin-left: 30%;
   width: 260px;
   height: 412px;
 }
@@ -500,8 +526,8 @@ header .button {
 /* additional info */
 
 #additional-info {
-  width: 1260px;
-  margin: 0 auto;
+  max-width: 1260px;
+  margin: 0 90px;
   clear: both;
 }
 
@@ -518,12 +544,13 @@ header .button {
   display: block;
   position: relative;
   width: 380px;
-  margin: 50px 0 100px 0;
+  margin: 3.5% 4.1% 7% 0;
   float: left;
 }
 
-.col_third + .col_third {
-  margin-left: 60px;
+#additional-info div:last-child {
+  margin-top: 0;
+  margin-right: 0;
 }
 
 .col_third .barrick-background {
@@ -552,42 +579,41 @@ header .button {
 /* meeting voting */
 
 #meeting-voting {
-  position: relative;
-  clear: both;
-  margin-bottom: 54px;
-}
-
-#meeting-image {
-  width: 1440px;
+  background: url(../images/voting-terms.jpg) no-repeat left top;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   height: 763px;
+  margin-bottom: 54px;
+  clear: both;
+  overflow: hidden;
 }
 
 #meeting-voting h1 {
-  position: absolute;
-  top: 70px;
-  left: 90px;
+  margin: 5% 0 3% 6.25%;
   height: 46px;
   font-size: 34px;
   color: #fff;
-  margin: 0;
 }
 
 #electing, #appointing, #pay-advisory {
-  margin: 0;
-  position: absolute;
-  top: 185px;
+  margin: 2% 0;
+  width: 26.6%;
 }
 
 #electing {
-  left: 90px;
+  margin-left: 6.25%;
+  float: left;
 }
 
 #appointing {
-  left: 530px;
+  margin-left: 4.5%;
+  float: left;
 }
 
 #pay-advisory {
-  left: 970px;
+  margin-left: 4.5%;
+  float: left;
 }
 
 #meeting-voting .col_third h3 {
@@ -615,51 +641,60 @@ header .button {
   top: 353px;
 }
 
+.vote-container {
+  position: relative;
+  margin-top: 530px;
+  margin-left: 27.5%;
+}
+
 #meeting-voting h2 {
-  margin: 0;
   position: absolute;
-  bottom: 72px;
-  left: 408px;
+  top: 0;
+  left: 0;
   height: 49px;
   font-size: 36px;
-  color: #fff;
+  color: #fff;  
 }
 
 .meeting-button {
   position: absolute;
-  bottom: 78px;
-  left: 870px;
+  top: 0;
+  left: 470px;
 }
 
 /* annual meeting */
-#annual-meeting {
-  margin: 0;
-  position: relative;
-}
 
-#annual-meeting-image {
+#annual-meeting {
+  background: url(../images/footer-crowd.png) no-repeat left top;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
   height: 528px;
+  overflow: hidden;
+  clear: both;
 }
 
 #annual-meeting h1 {
-  margin: 0;
-  position: absolute;
+  margin-top: 85px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 70px;
   font-family: 'Open Sans Bold';
-  top: 85px;
-  left: 411px;
   height: 49px;
   font-size: 36px;
   color: #043a56;
 }
 
 .annual-section {
-  position: absolute;
-  top: 204px;
-  left: 411px;
+  margin-left: 28.5%;
+  float: left;
+  width: 21%;
 }
 
 .annual-second {
-  left: 752px;
+  margin-left: 2%;
+  float: left;
 }
 
 .annual-section h2 {
@@ -685,8 +720,8 @@ header .button {
 /* divider */
 
 #divider {
-  margin: -5px;
   height: 9px;
+  width: 100%;
   background-color: #043a56;
 }
 
@@ -701,13 +736,13 @@ footer {
   position: absolute;
   width: 85px;
   height: 42px;
-  left: 90px;
+  left: 6.25%;
   bottom: 29px;
 }
 
 #search-proxy {
   position: absolute;
-  right: 90px;
+  right: 6.25%;
   bottom: 25px;
   width: 299px;
   height: 50px;
@@ -725,7 +760,7 @@ footer {
 
 #search-icon {
   position: absolute;
-  right: 117px;
+  right: 8.125%;
   bottom: 37px;
   cursor: pointer;
 }
