@@ -331,7 +331,6 @@ header .button {
   position: relative;
   width: calc(100vw - 835px);
   min-width: 300px;
-  object-fit: cover;
   margin: 0 20px 20px 0;
   float: left;
 }
