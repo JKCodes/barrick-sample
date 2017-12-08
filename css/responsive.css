@@ -122,7 +122,7 @@
   .button.vote {
     top: 70px;
     height: 60px;
-    font-size: 30px;
+    font-size: 26px;
   }
 
   /* hero */
@@ -149,7 +149,7 @@
     margin-top: 15px;
     margin-bottom: 65px;
     width: 556px;
-    font-size: 57px;
+    font-size: 50px;
     color: #fff;
   }
 
@@ -415,7 +415,7 @@
 
   .annual-section h3 {
     margin: 16px 0 0 0;
-    font-size: 35px;
+    font-size: 30px;
     color: #043a56;
   }
 
