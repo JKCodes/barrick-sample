@@ -300,6 +300,7 @@
 
   #director-divider, #chairman-divider {
     width: 100%;
+    margin-left: 0;
   }
 
   /* additional info */
