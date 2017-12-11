@@ -188,6 +188,10 @@
     width: 800px;
   }
 
+  #picture-button-container .three-picture-play {
+    font-size: 46px;
+  }
+
   #picture-button-container {
     margin-left: -57px;
     display: inline-block;
@@ -195,7 +199,7 @@
     width: 114px;
     height: 114px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    padding: 30px 20px 20px 45px;
+    padding: 36px 20px 20px 45px;
     border-radius: 57px;
     cursor: pointer;
   }
@@ -208,8 +212,8 @@
   }
 
   .more {
-    width: 268px;
-    height: 86px;
+    width: 201px;
+    height: 64.5px;
     font-size: 28px;
     font-family: 'Open Sans Bold';
     background-color: transparent;
@@ -286,6 +290,10 @@
     position: absolute;
     top: 350px;
     left: 70px;
+  }
+
+  #director-divider, #chairman-divider {
+    width: 100%;
   }
 
   /* additional info */
