@@ -28,13 +28,20 @@ body {
   font-family: "Open Sans";
   width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 94px auto 0 auto;
 }
 
 header {
   height: 94px;
   background-color: #fff;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.shrink {
+  height: 65px;
 }
 
 ul {
@@ -105,6 +112,10 @@ h1, h2, h3, h4 {
   height: 42px;
 }
 
+.shrink #logo {
+  top: 10px;
+}
+
 #menu-trigger {
   display: none;
   position: absolute;
@@ -135,6 +146,10 @@ h1, h2, h3, h4 {
   line-height: 94px;
 }
 
+.shrink #main-nav li > a {
+  line-height: 65px;
+}
+
 #main-nav li:hover {
   background: rgb(248,248,248);
 }
@@ -151,6 +166,10 @@ h1, h2, h3, h4 {
 #main-nav li li a {
   padding: 6px 15px;
   color: rgb(150, 150, 150);
+  line-height: 20px;
+}
+
+.shrink #main-nav li li a {
   line-height: 20px;
 }
 
@@ -192,6 +211,10 @@ h1, h2, h3, h4 {
   right: 21.5%;
 }
 
+.shrink #proxy, .shrink #annual {
+  top: 25px;
+}
+
 #proxy:hover, #annual:hover {
   text-decoration: underline;
   color: #888;
@@ -208,6 +231,10 @@ header .button {
   border-radius: 0;
   right: 5%;
   top: 26px;
+}
+
+.shrink .button {
+  top: 13px;
 }
 
 
