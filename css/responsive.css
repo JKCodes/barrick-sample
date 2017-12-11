@@ -212,12 +212,18 @@
   }
 
   .more {
-    width: 201px;
-    height: 64.5px;
+    width: 268px;
+    height: 86px;
     font-size: 28px;
     font-family: 'Open Sans Bold';
     background-color: transparent;
     cursor: pointer;
+  }
+
+  #director .more, #chairman .more {
+    width: 201px;
+    height: 64.5px;
+    font-size: 21px;
   }
 
   .picture-section {
