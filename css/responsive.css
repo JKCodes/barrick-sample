@@ -77,7 +77,10 @@
   header {
     height: 200px;
     background-color: #fff;
-    position: relative;
+  }
+
+  .shrink {
+    height: 100px;
   }
 
   #logo {
@@ -90,10 +93,18 @@
     width: 150%;
   }
 
+  .shrink #logo {
+    top: 20px;
+  }
+
   #menu-trigger {
     display: block;
     top: 75px;
     left: 2%;
+  }
+
+  .shrink #menu-trigger {
+    top: 35px;
   }
 
   #menu-trigger img {
@@ -123,6 +134,10 @@
     top: 60px;
     height: 80px;
     font-size: 30px;
+  }
+
+  .shrink .button.vote {
+    top: 11px;
   }
 
   /* hero */
@@ -407,7 +422,9 @@
   /* annual */
 
   #annual-meeting h1 {
-  font-size: 55px;
+    font-size: 55px;
+    margin-left: 0;
+    text-align: center;
   }
   
   .annual-section {
@@ -490,14 +507,22 @@
 }
 
 @media (max-width: 920px) {
+  #logo {
+    left: 12%;
+  }
   #menu-trigger {
     display: block;
+    left: 3%;
   }
 
   #menu-trigger img {
     width: 15px;
     height: 15px;
     cursor: pointer;
+  }
+
+  .shrink #menu-trigger {
+    top: 24px;
   }
 
   #main-nav {
