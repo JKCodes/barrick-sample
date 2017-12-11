@@ -5,6 +5,7 @@
 
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Sample Page</title>
   </head>
@@ -22,32 +23,15 @@
           <ul>
             <li class="dropdown">
               <a href="#">Our Board</a>
-              <ul class="dropdown-content">
-                <li><a href="#">Who We Are</a></li>
-                <li><a href="#">What We Did</a></li>
-                <li><a href="#">How We Are Structured</a></li>
-                <li><a href="#">How We Are Paid</a></li>
-              </ul>
             </li>
             <li class="dropdown">
               <a href="#">Our Company</a>
-              <ul class="dropdown-content">
-                <li><a href="#">Company Category 1</a></li>
-                <li><a href="#">Company Category 2</a></li>
-                <li><a href="#">Company Category 3</a></li>
-              </ul>
             </li>
             <li class="dropdown">
               <a href="#">Our Pay</a>
-              <ul class="dropdown-content">
-                <li><a href="#">Pay Category 1</a></li>
-                <li><a href="#">Pay Category 2</a></li>
-                <li><a href="#">Pay Category 3</a></li>
-                <li><a href="#">Pay Category 4</a></li>
-              </ul>
             </li>
             <li class="dropdown">
-              <a href="#">2018 Meeting<button class="arrow-button"></button></a>
+              <a href="#">2018 Meeting <i class="fa fa-caret-down down-arrow"></i></a>
               <ul class="dropdown-content">
                 <li><a href="#">2018 Category 1</a></li>
                 <li><a href="#">2018 Category 2</a></li>
@@ -78,8 +62,9 @@
           <h3>Welcome</h3>
           <div class="divider"></div>
           <h1>Barrick: Delivering For Shareholders</h1>
+
           <div id="hero-button-container">
-            <button class="play-button"></button>
+            <i class="fa fa-play hero-play"></i>
           </div>
           <span>2018 Proxy</span>
         </div>
@@ -89,7 +74,7 @@
         <div class="col_small">
           <img class="small-photo" src="images/2xour-board.jpg" alt="Our Board" />
           <div id="picture-button-container">
-            <button class="play-button-smaller"></button>
+            <i class="fa fa-play three-picture-play"></i>
           </div>
           <h2>Our Board</h2>
           <button class="white picture-section more">LEARN MORE</button>
@@ -97,7 +82,7 @@
         <div class="col_large">
           <img class="large-photo" src="images/2xour-company.jpg" alt="Our Board" />
           <div id="picture-button-container">
-            <button class="play-button-smaller"></button>
+            <i class="fa fa-play three-picture-play"></i>
           </div>
           <h2>Our Company</h2>
           <button class="white picture-section more">LEARN MORE</button>
@@ -105,7 +90,7 @@
         <div class="col_last">
           <img class="small-photo" src="images/2xour-pay.jpg" alt="Our Board" />
           <div id="picture-button-container">
-            <button class="play-button-smaller"></button>
+            <i class="fa fa-play three-picture-play"></i>
           </div>
           <h2>Our Pay</h2>
           <button class="white picture-section more">LEARN MORE</button>
@@ -126,10 +111,11 @@
           <img class="quote" src="images/quote.png" alt="\"" />
         </div>
 
-        <img id="chairman-picture" src="images/Chairman.png" alt="Chairman" />
+        <div id="chairman-picture"></div>
         
-        <img id="chairman-barrick-icon" class="section-icon" src="images/barrick-icon.png" alt="Icon" />
+        <div id="chairman-barrick-icon"></div>
 
+        <div id="chairman-divider"></div>
       </div>
 
       <div id="director">
@@ -143,33 +129,33 @@
           <img class="quote" src="images/quote.png" alt="\"" />
         </div>
 
-        <img id="director-picture" class="section-picture" src="images/director.png" alt="Chairman" />
+        <div id="director-picture"></div>
         
-        <img id="director-barrick-icon" class="section-icon" src="images/barrick-icon-other.png" alt="Icon" />
+        <div id="director-barrick-icon"></div>
 
+        <div id="director-divider"></div>
       </div>
 
       <div id="additional-info">
         <h2>Additional Information</h2>
         <div class="col_third">
-          <img class="barrick-background" src="images/barrick-background.jpg" alt="Barrick Background" />
+          <div class="barrick-background"></div>
           <h3>Notice of Meeting</h3>
           <img class="arrow" src="images/arrow.png" />
         </div>
         <div class="col_third">
-          <img class="barrick-background" src="images/barrick-background.jpg" alt="Barrick Background" />
+          <div class="barrick-background"></div>
           <h3>Form of Proxy</h3>
           <img class="arrow" src="images/arrow.png" />
         </div>
         <div class="col_third">
-          <img class="barrick-background" src="images/barrick-background.jpg" alt="Barrick Background" />
+          <div class="barrick-background"></div>
           <h3>Meeting and Voting Info</h3>
           <img class="arrow" src="images/arrow.png" />
         </div>
       </div>
 
       <div id="meeting-voting">
-        <!-- <img id="meeting-image" src="images/voting-terms.jpg" /> -->
         <h1>2018 Meeting Voting Items</h1>
         <div class="col_third" id="electing">
           <img class="checkbox" src="images/checkbox.png" />
@@ -197,7 +183,6 @@
       </div>
 
       <div id="annual-meeting">
-        <!-- <img id="annual-meeting-image" src="images/footer-crowd.png" /> -->
         <h1>Annual Meeting Details</h1>
         <div class="annual-section annual-first">
           <h4>WHEN</h4>
