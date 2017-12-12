@@ -113,7 +113,7 @@
   .meeting-button {
     position: absolute;
     top: 5px;
-    left: 240px;
+    left: 280px;
     border: none;
     border-radius: 0px;
   }
@@ -357,7 +357,7 @@
 
   .meeting-button {
     top: 0;
-    left: 380px;
+    left: 345px;
   }
 
   #annual-meeting {
