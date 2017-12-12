@@ -250,6 +250,44 @@
     font-size: 21px;
   }
 
+  /* four picture */
+
+  #picture-content {
+    width: 620px;
+    margin: 20px auto;
+  }
+
+  .col_small {
+    width: 300px;
+    margin: 0 20px 20px 0;
+    float: left;
+  }
+
+  .small-photo {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* margin: 0 20px 20px 0 float: left*/
+  .col_large {
+    height: 300px;
+    width: 620px;
+    margin: 0 20px 20px 0;
+    float: left;
+  }
+
+  /* float: left margin: 0 0 20px 0*/
+  .col_last {
+    width: 300px;
+    margin: 0 0 20px 0;
+    float: left;
+  }
+
+  .large-photo {
+    width: 620px;
+    height: 300px;
+  }
+
   /* chairman */
 
   #chairman-info {
@@ -438,10 +476,11 @@
   }
 
   #picture-content {
+    width: auto;
+    max-width: 1260px;
     margin: 20px 90px;
   }
 
-  /* float: left margin: 0 20px 20px 0*/
   .col_small {
     width: 300px;
     margin: 0 20px 20px 0;

@@ -61,6 +61,12 @@ var app = {};
         $("header .button").addClass("show");
       }
 
+      if ($(window).width() < 1184) {
+        $(".col_large").remove().insertAfter($(".col_last"));
+      } else {
+        $(".col_large").remove().insertBefore($(".col_last"));
+      }
+
       $(window).resize(function() {
         if ($(window).width() < 1024) {
           if (!$("#menu-trigger").hasClass("clicked")) {
@@ -80,6 +86,12 @@ var app = {};
           $("#proxy").addClass("show");
           $("#annual").addClass("show");
           $("header .button").addClass("show");
+        }
+
+        if ($(window).width() < 1184) {
+          $(".col_large").remove().insertAfter($(".col_last"));
+        } else {
+          $(".col_large").remove().insertBefore($(".col_last"));
         }
       })
     }
