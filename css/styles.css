@@ -24,6 +24,11 @@
   box-sizing: border-box;
 }
 
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Open Sans";
   width: 100%;
@@ -37,6 +42,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  max-width: 1440px;
   z-index: 2;
 }
 
@@ -370,6 +376,7 @@ header .button {
   position: relative;
   width: calc(100vw - 835px);
   min-width: 300px;
+  max-width: 620px;
   margin: 0 20px 20px 0;
   float: left;
 }
@@ -438,6 +445,7 @@ header .button {
 #picture-content .col_large h2 {
   width: calc(100vw - 835px);
   min-width: 300px;
+  max-width: 620px;
 }
 
 .more {

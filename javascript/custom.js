@@ -49,7 +49,7 @@ var app = {};
 
     responsive: function() {
 
-      if ($(window).width() < 977) {
+      if (($(window).width() < 977) || (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
         $("#menu-trigger").addClass("show")
         $("#main-nav").removeClass("show")          
       } else {
@@ -61,8 +61,11 @@ var app = {};
         $("header .button").addClass("show");
       }
 
+      if(  ) {
+ 
+
       $(window).resize(function() {
-        if ($(window).width() < 977) {
+        if (($(window).width() < 977) || (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
           if (!$("#menu-trigger").hasClass("clicked")) {
             $("#menu-trigger").addClass("show");
             $("#main-nav").removeClass("show")
