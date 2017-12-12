@@ -76,6 +76,10 @@ h1, h2, h3, h4 {
   border: none;
 }
 
+img {
+  pointer-events: none;
+}
+
 /* play & arrow button */
 
 .dropdown .down-arrow {
@@ -896,5 +900,6 @@ footer {
   position: absolute;
   right: 8.125%;
   bottom: 40px;
+  pointer-events: auto;
   cursor: pointer;
 }
