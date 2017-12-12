@@ -393,7 +393,7 @@ header .button {
   float: none;
 }
 
-.col_small:hover, .col_large:hover, .col_last:hover {
+.col_small:hover, .col_last:hover {
   background-size: 102%;
 }
 
