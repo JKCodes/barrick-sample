@@ -42,23 +42,6 @@
     height: auto;
   }
 
-  .col_small {
-    width: 85%;
-  }
-
-  .small-photo {
-    width: 100%;
-    height: auto;
-  }
-
-  .col_large {
-    width: 85%;
-  }
-
-  .col_last {
-    width: 85%;
-  }
-
   /* meeting voting */
 
   #meeting-voting {
