@@ -466,6 +466,7 @@ header .button {
 }
 
 .more:hover {
+  border: 2px solid #ccc;
   color: #ccc;
 }
 
