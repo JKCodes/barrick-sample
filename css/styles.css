@@ -262,11 +262,11 @@ header .button {
   position: absolute;
   border-radius: 0;
   right: 5%;
-  top: 38px;
+  top: 26px;
 }
 
 .shrink .button {
-  top: 21px;
+  top: 13px;
 }
 
 .vote {
@@ -282,6 +282,12 @@ header .button {
 .vote:hover {
   color: #fff;
   background-color: #b88420;
+}
+
+header .vote {
+  width: 160px;
+  height: 40px;
+  font-size: 14px;
 }
 
 /* hero-image section */
