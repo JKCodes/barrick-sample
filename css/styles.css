@@ -47,6 +47,10 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
+button {
+  border: none !important;
+}
+
 .shrink {
   height: 65px;
 }
@@ -463,7 +467,6 @@ header .button {
 }
 
 .more:hover {
-  border: solid 2px #ccc;
   color: #ccc;
 }
 
