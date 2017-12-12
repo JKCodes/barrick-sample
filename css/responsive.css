@@ -97,8 +97,7 @@
     top: 20px;
   }
 
-  #menu-trigger {
-    display: block;
+  #menu-trigger.show {
     top: 75px;
     left: 2%;
   }
@@ -113,8 +112,29 @@
     cursor: pointer;
   }
 
-  #main-nav {
-    display: none;
+  body {
+    margin-top: 200px;
+  }
+
+
+  #main-nav.show {
+    left: 10%;
+  }
+
+  #main-nav.show li > a {
+    line-height: 200px;
+    font-size: 30px;
+    margin: 0 5px;
+  }
+
+  .shrink #main-nav.show li > a {
+    line-height: 100px;
+    margin: 0 5px;
+  }
+
+  #main-nav.show li li a, .shrink #main-nav.show li li a {
+    line-height: 55px;
+    font-size: 26px;
   }
 
   #proxy {
@@ -511,7 +531,6 @@
     left: 12%;
   }
   #menu-trigger {
-    display: block;
     left: 3%;
   }
 
@@ -646,6 +665,14 @@
 
   #annual {
     left: 45%;
+  }
+
+  #main-nav.show li > a {
+    font-size: 13px;
+  }
+
+  #main-nav.show li li a, .shrink #main-nav.show li li a {
+    font-size: 13px;
   }
 
   #hero-content h3 {
