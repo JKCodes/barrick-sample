@@ -363,19 +363,18 @@ header .button {
 
 /* float: left margin: 0 20px 20px 0*/
 .col_small {
+  background: url('../images/2xour-board.jpg') no-repeat left top;
+  background-position: center;
+  background-size: cover;
   display: block;
   position: relative;
   width: 300px;
+  height: 300px;
   margin: 0 auto 20px auto;
   float: none;
 }
 
-.small-photo {
-  width: 300px;
-  height: 300px;
-}
-
-.col_large img {
+.col_small img, .col_last img, .col_large img {
   display: none;
 }
 
@@ -394,11 +393,19 @@ header .button {
   float: none;
 }
 
+.col_small:hover, .col_large:hover, .col_last:hover {
+  background-size: 102%;
+}
+
 /* float: left margin: 0 0 20px 0*/
 .col_last {
+  background: url('../images/2xour-pay.jpg') no-repeat left top;
+  background-position: center;
+  background-size: cover;
   display: block;
   position: relative;
   width: 300px;
+  height: 300px;
   margin: 0 auto 20px auto;
   float: none;
 }
