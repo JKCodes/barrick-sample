@@ -71,13 +71,12 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-/* col settings */
-
 
 /* play & arrow button */
+
 .dropdown .down-arrow {
-  font-size: 18px;
-  margin-left: 8px;
+  font-size: 9px;
+  margin-left: 3px;
 }
 
 .play-button {
@@ -118,7 +117,7 @@ h1, h2, h3, h4 {
   display: block;
   position: absolute;
   top: 24px;
-  left: 6%;
+  left: 12%;
   width: 85px;
   height: 42px;
 }
@@ -131,8 +130,19 @@ h1, h2, h3, h4 {
   display: block;
   position: absolute;
   top: 36px;
-  left: 1%;
+  left: 3%;
 }
+
+#menu-trigger img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.shrink #menu-trigger {
+    top: 24px;
+}
+
 
 #main-nav.show {
   display: block;
@@ -152,8 +162,8 @@ h1, h2, h3, h4 {
 
 #main-nav li > a {
   display: block;
-  padding: 0 12px;
-  font-size: 14px;
+  padding: 0 7px;
+  font-size: 9px;
   color: #043a56;
   line-height: 94px;
 }
@@ -176,7 +186,7 @@ h1, h2, h3, h4 {
 }
 
 #main-nav li li a {
-  padding: 6px 15px;
+  padding: 2px 5px;
   color: #043a56;
   line-height: 20px;
 }
@@ -194,7 +204,6 @@ h1, h2, h3, h4 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 200px;
   z-index: 100;
 }
 
@@ -211,18 +220,18 @@ h1, h2, h3, h4 {
 }
 
 #proxy {
-  display: block;
+  display: none;
   position: absolute;
   top: 41px;
-  right: 26%;
+  right: 39%;
   margin-right: 30px;
 }
 
 #annual {
-  display: block;
+  display: none;
   position: absolute;
   top: 41px;
-  right: 21.5%;
+  right: 31.5%;
 }
 
 .shrink #proxy, .shrink #annual {
@@ -245,19 +254,18 @@ header .button {
   position: absolute;
   border-radius: 0;
   right: 5%;
-  top: 26px;
+  top: 38px;
 }
 
 .shrink .button {
-  top: 13px;
+  top: 21px;
 }
 
-
 .vote {
-  width: 160px;
-  height: 40px;
+  width: 80px;
+  height: 20px;
   background-color: #c79226;
-  font-size: 14px;
+  font-size: 8px;
   font-weight: bold;
   color: #fff;
   cursor: pointer;
@@ -274,37 +282,36 @@ header .button {
   background: url(../images/2xhero-image.jpg) no-repeat left top;
   background-size: cover;
   background-position: center;
-  height: 665px;
+  height: 173px;
   position: relative;
   overflow: hidden;
   margin: 0 auto;
 }
 
 #hero-content {
-  margin-top: 145px;
-  margin-left: 17.4%;
+  margin-top: 20px;
+  margin-left: 7.4%;
 }
 
 #hero-content h3 {
-  height: 30px;
-  font-size: 20px;
+  font-size: 13px;
   color: #fff;
 }
 
 #hero-content .divider {
-  margin-top: 20px;
-  width: 99px;
+  margin-top: 10px;
+  width: 61px;
   height: 1px;
   border-bottom: solid 2px #fff;
 }
 
 #hero-content h1 {
   font-family: 'Open Sans Bold';
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 25px;
   width: 556px;
-  height: 124px;
-  font-size: 46px;
+  height: 22px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -312,11 +319,11 @@ header .button {
   float: left;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.8);
-  width: 73px;
-  height: 73px;
+  width: 40px;
+  height: 40px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  padding: 23px 18px 18px 29px;
-  border-radius: 36.5px;
+  padding: 10px 1px 1px 15px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
@@ -325,37 +332,34 @@ header .button {
 }
 
 #hero-button-container .hero-play {
-  font-size: 28px;
+  font-size: 20px;
   color:#003957;
 }
 
 #hero-content span {
   float: left;
-  margin-top: 28px;
+  margin-top: 10px;
   margin-left: 20px;
-  height: 30px;
-  font-size: 21px;
+  font-size: 14px;
   color: #fff;
 }
 
 /* next four pictures container */
 
+/* margin: 20px 90px; */
 #picture-content {
   max-width: 1260px;
-  margin: 20px 90px;
+  margin: 20px 10px;
   clear: both;
 }
 
-.col_small, .col_large, .col_last:hover {
-  scal
-}
-
+/* float: left margin: 0 20px 20px 0*/
 .col_small {
   display: block;
   position: relative;
   width: 300px;
-  margin: 0 20px 20px 0;
-  float: left;
+  margin: 0 auto 20px auto;
+  float: none;
 }
 
 .small-photo {
@@ -367,6 +371,7 @@ header .button {
   display: none;
 }
 
+/* margin: 0 20px 20px 0 float: left*/
 .col_large {
   background: url('../images/2xour-company.jpg') no-repeat left top;
   background-position: center;
@@ -377,17 +382,17 @@ header .button {
   width: calc(100vw - 835px);
   min-width: 300px;
   max-width: 620px;
-  margin: 0 20px 20px 0;
-  float: left;
+  margin: 0 auto 20px auto;
+  float: none;
 }
 
+/* float: left margin: 0 0 20px 0*/
 .col_last {
   display: block;
   position: relative;
   width: 300px;
-  margin: 0 0 20px 0;
-  float: left;
-  margin-right: 0;
+  margin: 0 auto 20px auto;
+  float: none;
 }
 
 .large-photo {
@@ -433,9 +438,9 @@ header .button {
 
 #picture-content h2 {
   position: absolute;
-  top: 140px;
+  top: 46.7%;
   left: 0px;
-  width: 300px;
+  width: 100%;
   text-align: center;
   height: 38px;
   font-size: 28px;
@@ -443,9 +448,7 @@ header .button {
 }
 
 #picture-content .col_large h2 {
-  width: calc(100vw - 835px);
-  min-width: 300px;
-  max-width: 620px;
+  width: 100%;
 }
 
 .more {
@@ -470,7 +473,7 @@ header .button {
 
 .picture-section {
   position: absolute;
-  top: 205px;
+  top: 68.3%;
   left: 50%;
   margin-left: -67px;
 }
@@ -480,7 +483,6 @@ header .button {
 #chairman {
   overflow: hidden;
   position: relative;
-  height: 490px;
   clear: both;
   width: 100%;
 }
@@ -488,69 +490,78 @@ header .button {
 #director {
   overflow: hidden;
   position: relative;
-  height: 470px;
+  width: 100%;
 }
 
+/* left: 17.4% top: 50px*/
 #chairman-info {
   position: relative;
-  top: 70px;
-  left: 17.4%;
+  top: 50px;
+  left: 5%;
 }
 
+/* top: 70px */
 #director-info {
   position: relative;
-  top: 70px;
+  top: 50px;
   left: 50.6%;
 }
 
+/* font-size: 36px; width: 27.8% */
 #chairman-info h2,
 #director-info h2 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 27.8%;
-  height: 98px;
-  font-size: 36px;
+  width: 43%;
+  font-size: 13px;
   font-family: 'Open Sans Bold';
   color: #043a56;
 }
 
+/* top: 152px left: 13px width: 52px */
 #chairman-info .quote,
 #director-info .quote {
   position: absolute;
-  top: 152px;
-  left: 13px;
+  top: 52px;
+  left: 0px;
+  width: 20px;
+  height: auto;
 }
 
+/* font-size: 14px; top: 150px left: 80px width: 360px */
 #chairman-info h3,
 #director-info h3 {
   position: absolute;
-  top: 150px;
-  left: 80px;
-  width: 360px;
+  top: 50px;
+  left: 30px;
+  width: 39%;
   height: 60px;
-  font-size: 14px;
+  font-size: 9px;
   color: #043a56;
 }
 
+/*  width: 240px height: 436px*/
 #chairman-picture {
   background: url('../images/Chairman.png') no-repeat left top;
   background-size: contain;
   margin-top: 30px;
   margin-left: 54.4%;
-  width: 240px;
-  height: 436px;
+  width: 110px;
+  height: 200px;
 }
 
+/* width: 260px height: 412px  margin-left: 30% */
 #director-picture {
   background: url('../images/director.png') no-repeat left top;
   background-size: contain;
   margin-top: 30px;
-  margin-left: 30%;
-  width: 260px;
-  height: 412px;
+  margin-left: 5%;
+  width: 126.2px;
+  height: 200px;
 }
 
+/* display: block */
 #chairman-barrick-icon {
   background: url('../images/barrick-icon.png') no-repeat left top;
   background-size: contain;
@@ -560,8 +571,10 @@ header .button {
   height: 328.6px;
   width: 390px;
   z-index: -11;
+  display: none;
 }
 
+/* display: block */
 #director-barrick-icon {
   background: url('../images/barrick-icon-other.png') no-repeat left top;
   background-size: contain;
@@ -570,13 +583,16 @@ header .button {
   bottom: 25px;
   height: 400px;
   width: 380px;
+  z-index: -11;
+  display: none;
 }
 
+/* top: 280px left: 80px */
 .chairman-section,
 .director-section {
   position: absolute;
-  top: 280px;
-  left: 80px;
+  top: 125px;
+  left: 20px;
 }
 
 .yellow {
@@ -605,82 +621,98 @@ header .button {
 
 /* additional info */
 
+/* margin 0 90px */
 #additional-info {
   max-width: 1260px;
-  margin: 0 90px;
+  margin: 0 10px;
   clear: both;
 }
 
+/* margin-top: 80px font-size: 34px height: 46px*/
 #additional-info h2 {
-  margin-top: 80px;
+  margin-top: 20px;
   margin-bottom: 0px;
   text-align: center;
-  font-size: 34px;
-  height: 46px;
+  font-size: 16px;
+  height: 16px;
   color: #043a56;
 }
 
+/* width: 380px float: left margin: 3.5% 4.1% 7% 0*/
 .col_third {
   cursor: pointer;
   display: block;
   position: relative;
-  width: 380px;
-  margin: 3.5% 4.1% 7% 0;
-  float: left;
+  width: 100%;
+  margin: 3.5% 0 7.5% 0;
 }
 
 #additional-info div:last-child {
   margin-right: 0;
 }
 
+/* width: 380px height: 195px background-size: contain*/
 .col_third .barrick-background {
   background: url(../images/barrick-background.jpg) no-repeat top left;
-  background-size: contain;
-  width: 380px;
-  height: 195px;
+  background-size: cover;
+  width: 100%;
+  height: 184px;
 }
 
+/* top 84px height: 24px font-size: 21px */
 .col_third h3 {
   position: absolute;
-  top: 84px;
+  top: 47%;
   left: 27px;
   height: 24px;
-  font-size: 21px;
+  font-size: 16px;
   color: #fff;
   margin: 0;
 }
 
+/* width: 97px top: 78px; */
 .col_third .arrow {
   position: absolute;
-  top: 78px;
+  top: 46%;
   right: 20px;
-  width: 97px;
+  width: 63px;
+  height: auto;
   cursor: pointer;
 }
 
 /* meeting voting */
 
+
+/* margin-bottom: 54px; height: 763px; */
 #meeting-voting {
   background: url(../images/voting-terms.jpg) no-repeat left top;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 763px;
-  margin-bottom: 54px;
+  height: 200px;
+  margin-bottom: 20px;
   clear: both;
   overflow: hidden;
 }
 
+/* font-size: 34px, height: 46px; margin: 5% 0 3% 6.25% */
 #meeting-voting h1 {
-  margin: 5% 0 3% 6.25%;
-  height: 46px;
-  font-size: 34px;
+  margin: 2% 0 0 6.25%;
+  height: 20px;
+  font-size: 14px;
   color: #fff;
 }
 
+/* default: width 54px; */
+.checkbox {
+  width: 15px;
+  height: auto;
+}
+
+/* width: 26.6%; */
 #electing, #appointing, #pay-advisory {
   margin: 2% 0;
-  width: 26.6%;
+  width: 94%;
 }
 
 #electing {
@@ -698,22 +730,29 @@ header .button {
   float: left;
 }
 
+/* hiding the other two sections for small screen */
+#meeting-voting .col_third + .col_third {
+  display: none;
+}
+
+/* top: 78px; height: 92px font-size: 34px; */
 #meeting-voting .col_third h3 {
   position: absolute;
-  top: 78px;
+  top: 24px;
   left: 0;
-  height: 92px;
-  font-size: 34px;
+  height: 28px;
+  font-size: 13px;
   color: #fff;
   font-family: 'Open Sans Bold';
 }
 
+/* top: 180px; height: 147px font-size: 14px; */
 #meeting-voting .col_third p {
   position: absolute;
-  top: 180px;
+  top: 43px;
   left: 0;
-  height: 147px;
-  font-size: 14px;
+  height: 70px;
+  font-size: 9px;
   color: #fff;
 }
 
@@ -723,80 +762,88 @@ header .button {
   top: 353px;
 }
 
+/* margin-top: 530px margin-left: 27.5%*/
 .vote-container {
   position: relative;
-  margin-top: 530px;
-  margin-left: 27.5%;
+  margin-top: 140px;
+  margin-left: 13.5%;
 }
 
+/* font-size: 36px */
 #meeting-voting h2 {
   position: absolute;
   top: 0;
   left: 0;
   height: 49px;
-  font-size: 36px;
+  font-size: 12px;
   color: #fff;  
 }
 
+/* left: 470px */
 .meeting-button {
   position: absolute;
   top: 0;
-  left: 470px;
+  left: 150px;
   border: none;
   border-radius: 0px;
 }
 
 /* annual meeting */
 
+/* height: 528px */
 #annual-meeting {
   background: url(../images/footer-crowd.png) no-repeat left top;
   background-size: cover;
   background-position: center;
   position: relative;
   width: 100%;
-  height: 528px;
+  height: 140px;
   overflow: hidden;
   clear: both;
 }
 
+/* margin-left: 28.5%; font-size:36px margin-top: 85px margin-bottom: 70px; height: 49px; */
 #annual-meeting h1 {
-  margin-top: 85px;
-  width: 100%;
-  margin-left: 28.5%;
-  margin-bottom: 70px;
+  margin-top: 15px;
+  width: 95%;
+  margin-left: 5%;
+  margin-bottom: 10px;
   font-family: 'Open Sans Bold';
-  height: 49px;
-  font-size: 36px;
+  height: 20px;
+  font-size: 16px;
   color: #043a56;
 }
 
+/* margin-left: 28.5%, width: 21% */
 .annual-section {
-  margin-left: 28.5%;
+  margin-left: 5%;
   float: left;
-  width: 21%;
+  width: 43%;
 }
 
 .annual-second {
-  margin-left: 2%;
+  margin-left: 4%;
   float: left;
 }
 
+/* font-size: 24px; margin: 20px 0 0 0;*/
 .annual-section h2 {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
   font-family: 'Open Sans Bold';
-  font-size: 24px;
+  font-size: 10px;
   color: #043a56;
 }
 
+/* font-size: 24px; margin: 16px 0 0 0; */
 .annual-section h3 {
-  margin: 16px 0 0 0;
-  font-size: 24px;
+  margin: 7px 0 0 0;
+  font-size: 10px;
   color: #043a56;
 }
 
+/* font-size: 14px */
 .annual-section h4 {
-  margin: 0;
-  font-size: 14px;
+  font-size: 8px;
   font-family: 'Open Sans Bold';
   color: #ba880b;
 }
@@ -824,28 +871,33 @@ footer {
   bottom: 29px;
 }
 
+
+/* at max size, width: 299px, height: 50px, bottom: 25px, font-size: 18px; */
+
 #search-proxy {
   position: absolute;
   right: 6.25%;
-  bottom: 25px;
-  width: 299px;
-  height: 50px;
+  bottom: 37px;
+  width: 50%;
+  height: 30px;
   border-radius: 5px;
   background-color: #fff;
   border: solid 1px #9b9b9b;
   padding: 0px 25px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
+/* max: font-size: 18px */
 #search-proxy::placeholder {
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   color: #acacaf;
 }
 
+/* at max: bottom: 37px */
 #search-icon {
   position: absolute;
   right: 8.125%;
-  bottom: 37px;
+  bottom: 40px;
   cursor: pointer;
 }

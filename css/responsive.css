@@ -1,634 +1,655 @@
-/* responsive */
+@media (min-width: 425px) {
+    
+  /* header */
 
-@media (max-width: 1199px) {
-  #proxy {
-    right: 31.5%;
-    margin-right: 30px;
+  .dropdown .down-arrow {
+    font-size: 12px;
+    margin-left: 3px;
   }
 
-  #annual {
-    right: 26%;
+  #main-nav li > a {
+    padding: 0 8px;
+    font-size: 12px;
   }
 
-  .col_small, .col_large, .col_last {
-    float: none;
-    margin: 20px auto;
+  #main-nav li li a {
+    padding: 3px 6px;
+    color: #043a56;
+    line-height: 20px;
   }
 
-  #chairman-barrick-icon {
-    display: none;
+  #hero-section {
+    height: 354px;
   }
 
-  #director-barrick-icon {
-    display: none;
+  #hero-content {
+    margin-top: 90px;
+    margin-left: 11.4%;
   }
 
-  #chairman-info {
-    position: relative;
-    top: 70px;
-    left: 8%;
+  #hero-content h3 {
+    font-size: 15px;
   }
 
-  #director-info {
-    position: relative;
-    top: 70px;
-    left: 55%;
+  #hero-content .divider {
+    width: 69px;
   }
 
-  #chairman-picture {
-    margin-top: 30px;
-    margin-left: 55%;
-    width: 240px;
-    height: 436px;
+  #hero-content h1 {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 22px;
+    height: auto;
   }
 
-  #director-picture {
-    margin-top: 30px;
-    margin-left: 8%;
-    width: 260px;
-    height: 412px;
+  .col_small {
+    width: 85%;
   }
 
-  .col_third {
-    float: none;
-    margin: 20px auto;
+  .small-photo {
+    width: 100%;
+    height: auto;
   }
 
-  #additional-info div:last-child {
-    margin: 20px auto;
+  .col_large {
+    width: 85%;
+  }
+
+  .col_last {
+    width: 85%;
+  }
+
+  /* meeting voting */
+
+  #meeting-voting {
+    height: 407px;
+  }
+
+  #meeting-voting h1 {
+    margin: 3% 0 0 6.25%;
+    height: 27px;
+    font-size: 22px;
+  }
+
+  .checkbox {
+    width: 19px;
   }
 
   #meeting-voting .col_third h3 {
-    top: 53px;
-    font-size: 23px;
+    top: 28px;
+    height: 28px;
+    font-size: 20px;
   }
 
   #meeting-voting .col_third p {
     position: absolute;
-    top: 115px;
+    top: 56px;
+    height: auto;
+    font-size: 11px;
+    padding-right: 10px;
+  }
+
+  .meeting-section {
+    position: absolute;
     left: 0;
-    height: 147px;
-    font-size: 14px;
-    color: #fff;
+    top: 175px;
+  }
+
+  .vote-container {
+    position: relative;
+    margin-top: 280px;
+    margin-left: 13.5%;
+  }
+
+  #meeting-voting h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 49px;
+    font-size: 20px;
+    color: #fff;  
+  }
+
+  .meeting-button {
+    position: absolute;
+    top: 5px;
+    left: 240px;
+    border: none;
+    border-radius: 0px;
+  }
+
+  .col_third .barrick-background {
+    height: 394px;
+  }
+
+  .col_third h3 {
+    top: 46%;
+    font-size: 32px;
+  }
+
+  .col_third .arrow {
+    top: 60%;
+    left: 27px;
+    width: 97px;
+  }
+
+  #annual-meeting {
+    height: 281px;
+  }
+
+  #annual-meeting h1 {
+    margin-top: 35px;
+    height: 35px;
+    font-size: 25px;
+  }
+
+  /* font-size: 24px; margin: 20px 0 0 0;*/
+  .annual-section h2 {
+    margin: 13px 0 0 0;
+    font-family: 'Open Sans Bold';
+    font-size: 18px;
+    color: #043a56;
+  }
+
+  /* font-size: 24px; margin: 16px 0 0 0; */
+  .annual-section h3 {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: #043a56;
+  }
+
+  /* font-size: 14px */
+  .annual-section h4 {
+    font-size: 13px;
+    font-family: 'Open Sans Bold';
+    color: #ba880b;
   }
 }
 
-@media (min-width: 920px) and (max-width: 991px) {
-  header {
-    height: 200px;
-    background-color: #fff;
-  }
+@media (min-width: 768px) {
 
-  .shrink {
-    height: 100px;
+  .dropdown .down-arrow {
+    font-size: 18px;
+    margin-left: 8px;
   }
 
   #logo {
-    position: absolute;
-    top: 64px;
-    left: 9%;
+    left: 8%;
   }
 
-  #logo img {
-    width: 150%;
+  #main-nav li > a {
+    padding: 0 12px;
+    font-size: 14px;
   }
 
-  .shrink #logo {
-    top: 20px;
+  #main-nav li li a {
+    padding: 6px 10px;
   }
 
-  #menu-trigger.show {
-    top: 75px;
-    left: 2%;
+  #proxy, #annual {
+    display: block;
   }
 
-  .shrink #menu-trigger {
-    top: 35px;
+  header .button {
+    top: 26px;
   }
 
-  #menu-trigger img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+  .shrink .button {
+    top: 13px;
   }
 
-  body {
-    margin-top: 200px;
+  .vote {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
   }
 
-
-  #main-nav.show {
-    left: 10%;
+  #hero-section {
+    height: 473px;
   }
-
-  #main-nav.show li > a {
-    line-height: 200px;
-    font-size: 30px;
-    margin: 0 5px;
-  }
-
-  .shrink #main-nav.show li > a {
-    line-height: 100px;
-    margin: 0 5px;
-  }
-
-  #main-nav.show li li a, .shrink #main-nav.show li li a {
-    line-height: 55px;
-    font-size: 26px;
-  }
-
-  #proxy {
-    top: 80px;
-    left: 26%;
-    margin-right: 50px;
-    font-size: 30px;
-  }
-
-  #annual {
-    top: 80px;
-    right: 28%;
-    font-size: 30px;
-  }
-
-  .button.vote {
-    top: 60px;
-    height: 80px;
-    font-size: 30px;
-  }
-
-  .shrink .button.vote {
-    top: 11px;
-  }
-
-  /* hero */
 
   #hero-content {
-    margin-top: 75px;
-    margin-left: 17.4%;
+    margin-top: 110px;
+    margin-left: 14.4%;
   }
 
   #hero-content h3 {
-    font-size: 35px;
-    color: #fff;
+    font-size: 20px;
   }
 
   #hero-content .divider {
-    margin-top: 30px;
-    width: 171px;
-    height: 2px;
+    margin-top: 20px;
+    width: 99px;
+    height: 1px;
     border-bottom: solid 2px #fff;
   }
 
   #hero-content h1 {
     font-family: 'Open Sans Bold';
     margin-top: 15px;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     width: 556px;
-    font-size: 50px;
+    height: 124px;
+    font-size: 46px;
     color: #fff;
+  }
+
+  #hero-button-container {
+    width: 73px;
+    height: 73px;
+    padding: 23px 18px 18px 29px;
+    border-radius: 36.5px;
+  }
+
+  #hero-button-container .hero-play {
+    font-size: 28px;
   }
 
   #hero-content span {
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 30px;
-    color: #fff;
-  }
-
-  /* four picture section */
-
-  .col_small, .col_last, .small-photo {
-    width: 800px;
-    height: auto;
-  }
-
-  .col_large {
-    width: 800px;
-    height: 800px;
-  }
-
-  #picture-content h2 {
-    position: absolute;
-    top: 340px;
-    left: 0;
-    width: 800px;
-    text-align: center;
-    height: 38px;
-    font-size: 60px;
-    color: #fff;
-  }
-
-  #picture-content .col_large h2 {
-    width: 800px;
-  }
-
-  #picture-button-container .three-picture-play {
-    font-size: 46px;
-  }
-
-  #picture-button-container {
-    margin-left: -57px;
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 114px;
-    height: 114px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    padding: 36px 20px 20px 45px;
-    border-radius: 57px;
-    cursor: pointer;
-  }
-
-  .play-button-smaller {
-    width: 32px;
-    height: 48px;
-    border-style: solid;
-    border-width: 24px 0px 24px 32px;
-  }
-
-  .more {
-    width: 268px;
-    height: 86px;
-    font-size: 28px;
-    font-family: 'Open Sans Bold';
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-  #director .more, #chairman .more {
-    width: 201px;
-    height: 64.5px;
+    margin-top: 28px;
     font-size: 21px;
   }
 
-  .picture-section {
-    position: absolute;
-    top: 510px;
-    left: 50%;
-    margin-left: -134px;
-  }
-
-  .col_large .picture-section {
-    position: absolute;
-    left: 50%;
-    margin-left: -134px;
-  }
+  /* chairman */
 
   #chairman-info {
-    position: relative;
-    top: 30px;
-    left: 9%;
+    left: 10%;
   }
 
   #director-info {
-    position: relative;
-    top: 10px;
-    left: 35%;
+    top: 70px;
   }
 
   #chairman-info h2,
   #director-info h2 {
-    font-size: 46px;
-    width: 500px;
+    width: 27.8%;
+    font-size: 28px;
   }
 
   #chairman-info .quote,
   #director-info .quote {
-    width: 30px;
-    height: 25px;
-    top: 110px;
-    left: 10px;
-  }
-
-  #chairman-info .quote,
-  #director-info .quote {
-    width: 80px;
-    height: 60px;
-    top: 130px;
-    left: -10px;
+    top: 112px;
+    left: 0px;
+    width: 40px;
   }
 
   #chairman-info h3,
   #director-info h3 {
-    width: 500px;
-    top: 130px;
-    left: 80px;
-    font-size: 30px;
+    top: 112px;
+    left: 50px;
+    width: 300px;
+    height: auto;
+    font-size: 14px;
   }
 
   #chairman-picture {
-    margin-top: 30px;
-    margin-left: 70%;
+    width: 240px;
+    height: 436px;
   }
 
   #director-picture {
-    margin-top: 30px;
-    margin-left: 5%;
+    margin-left: 10%;
+    width: 260px;
+    height: 412px;
   }
 
   .chairman-section,
   .director-section {
     position: absolute;
-    top: 350px;
-    left: 70px;
+    top: 225px;
+    left: 50px;
   }
-
-  #director-divider, #chairman-divider {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  /* additional info */
 
   #additional-info h2 {
     margin-top: 50px;
-    text-align: center;
-    font-size: 70px;
-    height: 90px;
+    font-size: 26px;
+    height: 34px;
   }
 
-  #additional-info {
-    max-width: 1260px;
-    margin: 0 auto;
-    clear: both;
+  /* margin-bottom: 54px; height: 763px; */
+  #meeting-voting {
+    height: 543px;
+    margin-bottom: 40px;
   }
 
-  .col_third {
-    float: none;
-    width: 800px;
-    height: 400px;
-  }
-
-  .col_third .barrick-background {
-    width: 800px;
-    height: 400px;
-  }
-  
-  .col_third h3 {
-    position: absolute;
-    top: 170px;
-    left: 27px;
-    height: 24px;
-    font-size: 50px;
-    color: #fff;
-    margin: 0;
-  }
-
-  .col_third .arrow {
-    position: absolute;
-    top: 180px;
-    right: 20px;
-    width: 135px;
-    cursor: pointer;
-  }
-
-  /* meeting vote */
-
-  #electing, #appointing, #pay-advisory {
-    margin-top: 0;
-  }
-
+  /* font-size: 34px, height: 46px; margin: 5% 0 3% 6.25% */
   #meeting-voting h1 {
-    font-size: 46px;
-    margin-top: 15px;
-    margin-bottom: 45px;
+    margin: 4% 0 2.5% 6.25%;
+    height: 42px;
+    font-size: 28px;
+    color: #fff;
   }
 
-  #meeting-voting .col_third {
-    float: none;
-    width: 800px;
-  }
-
-  #meeting-voting .col_third + .col_third {
-    display: none;
+  .checkbox {
+    width: 44px;
+    height: auto;
   }
 
   #meeting-voting .col_third h3 {
-    top: 75px;
-    font-size: 37px;
+    top: 64px;
+    height: 80px;
+    font-size: 29px;
   }
 
+  /* top: 180px; height: 147px font-size: 14px; */
   #meeting-voting .col_third p {
-    top: 130px;
-    left: 0;
-    font-size: 27px;
-  }
-
-  #meeting-voting h2 {
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 49px;
-    font-size: 24px;
-    color: #fff;  
-  }
-
-  .meeting-button {
-    position: absolute;
-    top: 0;
-    left: 300px;
+    top: 120px;
+    font-size: 14px;
   }
 
   .meeting-section {
     position: absolute;
     left: 0;
-    top: 470px;
+    top: 235px;
   }
 
-  #meeting-voting {
-    height: 700px;
+  /* margin-top: 530px margin-left: 27.5%*/
+  .vote-container {
+    margin-top: 375px;
+    margin-left: 15.5%;
   }
 
-  /* annual */
+  /* font-size: 36px */
+  #meeting-voting h2 {
+    font-size: 29px;
+  }
+
+  .meeting-button {
+    top: 0;
+    left: 345px;
+  }
+
+  #annual-meeting {
+    height: 375px;
+  }
 
   #annual-meeting h1 {
-    font-size: 55px;
-    margin-left: 0;
-    text-align: center;
-  }
-  
-  .annual-section {
-    margin-left: 10.5%;
-    float: left;
-    width: 40%;
+    margin-top: 60px;
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    height: 40px;
+    font-size: 30px;
   }
 
-  .annual-second {
-    margin-left: 4%;
-    float: left;
+  .annual-section {
+    margin-left: 10%;
+    width: 38%;
   }
 
   .annual-section h2 {
     margin: 20px 0 0 0;
-    font-family: 'Open Sans Bold';
-    font-size: 42px;
-    color: #043a56;
-  }
-
-  .annual-section h3 {
-    margin: 16px 0 0 0;
-    font-size: 30px;
-    color: #043a56;
-  }
-
-  .annual-section h4 {
-    margin: 0;
-    font-size: 30px;
-    font-family: 'Open Sans Bold';
-    color: #ba880b;
-  }
-
-  footer {
-    position: relative;
-    height: 200px;
-  }
-
-  #footer-logo {
-    position: absolute;
-    left: 6.25%;
-    bottom: 90px;
-  }
-
-  #footer-logo img {
-    width: 170px;
-    height: 84px;
-  }
-
-  #search-proxy {
-    position: absolute;
-    right: 6.25%;
-    bottom: 50px;
-    width: 600px;
-    height: 100px;
-    border-radius: 5px;
-    font-size: 45px;
-    background-color: #fff;
-    border: solid 1px #9b9b9b;
-    padding: 0px 25px;
-  }
-
-  #search-proxy::placeholder {
-    font-size: 45px;
-    letter-spacing: 0.5px;
-    color: #acacaf;
-  }
-
-  #search-icon {
-    position: absolute;
-    right: 8.125%;
-    bottom: 57px;
-    cursor: pointer;
-  }
-
-  #search-icon {
-    width: 100px;
-    height: auto;
-  }
-}
-
-@media (max-width: 920px) {
-  #logo {
-    left: 12%;
-  }
-  #menu-trigger {
-    left: 3%;
-  }
-
-  #menu-trigger img {
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-  }
-
-  .shrink #menu-trigger {
-    top: 24px;
-  }
-
-  #main-nav {
-    display: none;
-  }
-
-  #proxy {
-    right: 32%;
-    margin-right: 50px;
-  }
-
-  #annual {
-    right: 28%;
-  }
-
-  #chairman-info h2,
-  #director-info h2 {
-    font-size: 23px;
-  }
-
-  #chairman-info .quote,
-  #director-info .quote {
-    width: 30px;
-    height: 25px;
-    top: 110px;
-    left: 10px;
-  }
-
-  #chairman-info h3,
-  #director-info h3 {
-    width: 300px;
-    top: 110px;
-    left: 45px;
-    font-size: 14px;
-  }
-
-  #electing, #appointing, #pay-advisory {
-    margin-top: 0;
-  }
-
-  #meeting-voting h1 {
-    font-size: 23px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-
-  #meeting-voting .col_third h3 {
-    top: 75px;
     font-size: 20px;
   }
 
+  /* font-size: 24px; margin: 16px 0 0 0; */
+  .annual-section h3 {
+    margin: 16px 0 0 0;
+    font-size: 17px;
+  }
+
+  /* font-size: 14px */
+  .annual-section h4 {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  #logo {
+    left: 6%;
+  }
+
+  #proxy {
+    right: 26%;
+  }
+
+  #annual {
+    right: 21.5%;
+  }
+
+  #hero-section {
+    height: 553px;
+  }
+
+  #hero-content {
+    margin-top: 145px;
+    margin-left: 17.4%;
+  }
+
+  .vote-container {
+    margin-top: 400px;
+    margin-left: 24.5%;
+  }
+
+  #meeting-voting {
+    height: 635px;
+  }
+
+  #annual-meeting {
+    height: 440px;
+  }
+}
+
+@media (min-width: 1199px) {
+  #hero-section {
+    height: 664px;
+  }
+
+  #picture-content {
+    margin: 20px 90px;
+  }
+
+  /* float: left margin: 0 20px 20px 0*/
+  .col_small {
+    width: 300px;
+    margin: 0 20px 20px 0;
+    float: left;
+  }
+
+  .small-photo {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* margin: 0 20px 20px 0 float: left*/
+  .col_large {
+    height: 300px;
+    width: calc(100vw - 835px);
+    min-width: 300px;
+    max-width: 620px;
+    margin: 0 20px 20px 0;
+    float: left;
+  }
+
+  /* float: left margin: 0 0 20px 0*/
+  .col_last {
+    width: 300px;
+    margin: 0 0 20px 0;
+    float: left;
+  }
+
+  .large-photo {
+    width: 100%;
+    height: 300px;
+  }
+
+  #chairman-info {
+    top: 50px;
+    left: 17.4%;
+  }
+
+  #director-info {
+    top: 70px;
+  }
+
+  /* font-size: 36px; width: 27.8% */
+  #chairman-info h2,
+  #director-info h2 {
+    width: 27.8%;
+    font-size: 36px;
+  }
+
+  /* top: 152px left: 13px width: 52px */
+  #chairman-info .quote,
+  #director-info .quote {
+    top: 152px;
+    left: 13px;
+    width: 52px;
+  }
+
+  /* font-size: 14px; top: 150px left: 80px width: 360px */
+  #chairman-info h3,
+  #director-info h3 {
+    top: 150px;
+    left: 80px;
+    width: 360px;
+    font-size: 14px;
+  }
+
+  #director-picture {
+    margin-left: 30%;
+  }
+
+  /* display: block */
+  #chairman-barrick-icon {
+    display: block;
+  }
+
+  /* display: block */
+  #director-barrick-icon {
+    display: block;
+  }
+
+  /* top: 280px left: 80px */
+  .chairman-section,
+  .director-section {
+    top: 280px;
+    left: 80px;
+  }
+
+  #additional-info {
+    margin: 0 90px;
+  }
+
+  #additional-info h2 {
+    margin-top: 80px;
+    font-size: 34px;
+    height: 46px;
+  }
+
+  /* width: 380px float: left margin: 3.5% 4.1% 7% 0*/
+  .col_third {
+    width: 380px;
+    margin: 3.5% 4.1% 7.5% 0;
+    float: left;
+  }
+
+  .col_third .barrick-background {
+    width: 380px;
+    height: 195px;
+    background-size: contain;
+  }
+
+  .col_third h3 {
+    top: 84px;
+    height: 24px;
+    font-size: 21px;
+  }
+
+  /* width: 97px top: 78px; */
+  .col_third .arrow {
+    position: absolute;
+    top: 78px;
+    left: 267px;
+    width: 97px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  /* margin-bottom: 54px; height: 763px; */
+  #meeting-voting {
+    height: 763px;
+    margin-bottom: 54px;
+  }
+
+  /* font-size: 34px, height: 46px; margin: 5% 0 3% 6.25% */
+  #meeting-voting h1 {
+    margin: 5% 0 3% 6.25%;
+    height: 40px;
+    font-size: 34px;
+    color: #fff;
+  }
+
+  /* default: width 54px; */
+  .checkbox {
+    width: 54px;
+  }
+
+  /* width: 26.6%; */
+  #electing, #appointing, #pay-advisory {
+    width: 26.6%;
+  }
+
+  #meeting-voting .col_third + .col_third {
+    display: block;
+  }
+
+  #meeting-voting .col_third h3 {
+    top: 78px;
+    height: 92px;
+    font-size: 34px;
+  }
+
   #meeting-voting .col_third p {
-    top: 135px;
-    left: 0;
-    font-size: 13px;
-  }
-
-  #meeting-voting h2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 49px;
-    font-size: 24px;
-    color: #fff;  
-  }
-
-  .meeting-button {
-    position: absolute;
-    top: 0;
-    left: 300px;
+    top: 180px;
+    height: 147px;
+    font-size: 14px;
+    padding: 0;
   }
 
   .meeting-section {
     position: absolute;
     left: 0;
-    top: 390px;
+    top: 353px;
   }
 
-  #meeting-voting {
-    height: 700px;
+  /* margin-top: 530px margin-left: 27.5%*/
+  .vote-container {
+    margin-top: 530px;
+    margin-left: 27.5%;
   }
 
+  /* font-size: 36px */
+  #meeting-voting h2 {
+    font-size: 36px;
+  }
+
+  /* left: 470px */
+  .meeting-button {
+    left: 470px;
+  }
+
+  /* height: 528px */
+  #annual-meeting {
+    height: 528px;
+  }
+
+  /* margin-left: 28.5%; font-size:36px margin-top: 85px margin-bottom: 70px; height: 49px; */
+  #annual-meeting h1 {
+    margin-top: 85px;
+    width: 71.5%;
+    margin-left: 28.5%;
+    margin-bottom: 70px;
+    height: 49px;
+    font-size: 36px;
+  }
+
+  /* margin-left: 28.5%, width: 21% */
   .annual-section {
-    margin-left: 19.5%;
-    float: left;
-    width: 30%;
+    margin-left: 28.5%;
+    width: 21%;
   }
 
   .annual-second {
@@ -636,186 +657,39 @@
     float: left;
   }
 
+  /* font-size: 24px; margin: 20px 0 0 0;*/
   .annual-section h2 {
     margin: 20px 0 0 0;
-    font-family: 'Open Sans Bold';
-    font-size: 16px;
-    color: #043a56;
+    font-size: 24px;
   }
 
+  /* font-size: 24px; margin: 16px 0 0 0; */
   .annual-section h3 {
     margin: 16px 0 0 0;
-    font-size: 16px;
-    color: #043a56;
+    font-size: 24px;
   }
 
+  /* font-size: 14px */
   .annual-section h4 {
-    margin: 0;
-    font-size: 14px;
-    font-family: 'Open Sans Bold';
-    color: #ba880b;
-  }
-}
-
-@media (max-width: 767px) {
-  #proxy {
-    left: 26.5%;
-    margin-right: 30px;
-  }
-
-  #annual {
-    left: 45%;
-  }
-
-  #main-nav.show li > a {
-    font-size: 13px;
-  }
-
-  #main-nav.show li li a, .shrink #main-nav.show li li a {
-    font-size: 13px;
-  }
-
-  #hero-content h3 {
-    font-size: 16px;
-  }
-
-  #hero-content .divider {
-    margin-top: 12px;
-    width: 82px;
-  }
-
-  #hero-content h1 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 31px;
-    color: #fff;
-  }
-
-  #chairman-info h2,
-  #director-info h2 {
-    font-size: 17px;
-  }
-
-  #chairman-info .quote,
-  #director-info .quote {
-    width: 30px;
-    height: 25px;
-    top: 80px;
-    left: 0px;
-  }
-
-  #chairman-info h3,
-  #director-info h3 {
-    width: 180px;
-    top: 80px;
-    left: 35px;
     font-size: 14px;
   }
 
-  #chairman-info {
-    position: relative;
-    top: 70px;
-    left: 3%;
-  }
+  /* at max size, width: 299px, height: 50px, bottom: 25px, font-size: 18px; */
 
-  #director-info {
-    position: relative;
-    top: 70px;
-    left: 50%;
-  }
-
-  #chairman-picture {
-    margin-top: 30px;
-    margin-left: 50%;
-    width: 200px;
-    height: 363px;
-  }
-
-  #director-picture {
-    margin-top: 30px;
-    margin-left: 3%;
-    width: 200px;
-    height: 317px;
-  }
-
-  .chairman-section,
-  .director-section {
-    position: absolute;
-    top: 220px;
-    left: 70px;
-  }
-
-  #additional-info h2 {
-    margin-top: 0px;
-    text-align: center;
-    font-size: 23px;
-  }
-
-  #additional-info {
-    max-width: 1260px;
-    margin: 0 auto;
-    clear: both;
-  }
-
-  .col_third {
-    float: none;
-  }
-
-  #meeting-voting h1 {
-    font-size: 23px;
-  }
-
-
-  #meeting-voting .col_third h3 {
-    top: 75px;
-    font-size: 17px;
-  }
-
-  #meeting-voting .col_third p {
-    top: 125px;
-    left: 0;
-    font-size: 12px;
-  }
-
-  #meeting-voting h2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 49px;
+  #search-proxy {
+    bottom: 25px;
+    width: 299px;
+    height: 50px;
     font-size: 18px;
-    color: #fff;  
   }
 
-  .vote-container {
-    position: relative;
-    margin-top: 570px;
-    margin-left: 9.5%;
+  /* max: font-size: 18px */
+  #search-proxy::placeholder {
+    font-size: 18px;
   }
 
-  .meeting-button {
-    position: absolute;
-    top: 0;
-    left: 220px;
-  }
-
-  .meeting-section {
-    position: absolute;
-    left: 0;
-    top: 470px;
-  }
-
-  #meeting-voting {
-    height: 700px;
-  }
-}
-
-
-@media (max-width: 479px) {
-  #proxy {
-    display: none;
-  }
-
-  #annual {
-    display: none;
+  /* at max: bottom: 37px */
+  #search-icon {
+    bottom: 37px;
   }
 }
