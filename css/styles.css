@@ -650,10 +650,6 @@ header .button {
   margin: 3.5% 0 7.5% 0;
 }
 
-#additional-info div:last-child {
-  margin-right: 0;
-}
-
 /* width: 380px height: 195px background-size: contain*/
 .col_third .barrick-background {
   background: url(../images/barrick-background.jpg) no-repeat top left;

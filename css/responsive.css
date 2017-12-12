@@ -101,18 +101,30 @@
     border-radius: 0px;
   }
 
+  #additional-info h2 {
+    margin-top: 30px;
+    font-size: 22px;
+    height: 30px;
+  }
+
+  .col_third {
+    width: 380px;
+    height: 184px;
+    margin: 3.5% auto 7.5% auto;
+  }
+
   .col_third .barrick-background {
-    height: 394px;
+    width: 380px;
+    height: 184px;
   }
 
   .col_third h3 {
-    top: 46%;
-    font-size: 32px;
+    top: 84px;
+    font-size: 21px;
   }
 
   .col_third .arrow {
-    top: 60%;
-    left: 27px;
+    top: 78px;
     width: 97px;
   }
 
@@ -325,6 +337,15 @@
     margin-top: 50px;
     font-size: 26px;
     height: 34px;
+  }
+
+  #additional-info {
+    margin: 0 90px;
+  }
+
+  .col_third {
+    float: left;
+    margin: 3.5% 4.1% 7% 0;
   }
 
   /* margin-bottom: 54px; height: 763px; */
@@ -562,32 +583,13 @@
   }
 
   /* width: 380px float: left margin: 3.5% 4.1% 7% 0*/
+
   .col_third {
     width: 380px;
-    margin: 3.5% 4.1% 7.5% 0;
-    float: left;
   }
 
-  .col_third .barrick-background {
-    width: 380px;
-    height: 195px;
-    background-size: contain;
-  }
-
-  .col_third h3 {
-    top: 84px;
-    height: 24px;
-    font-size: 21px;
-  }
-
-  /* width: 97px top: 78px; */
-  .col_third .arrow {
-    position: absolute;
-    top: 78px;
-    left: 267px;
-    width: 97px;
-    height: auto;
-    cursor: pointer;
+  #additional-info div:last-child {
+    margin-right: 0;
   }
 
   /* margin-bottom: 54px; height: 763px; */
